@@ -1,11 +1,11 @@
-#Documentacion
+# Documentacion
 
--Primero analice las paginas para revisar su estructura y ver los contenedores que necesitaba modificar, ademas de ver el video de como deberia quedar, y pensar que estilos iba a usar
--linke los estilos "practice" a todas las paginas para comenzar a trabajar
+- Primero analice las paginas para revisar su estructura y ver los contenedores que necesitaba modificar, ademas de ver el video de como deberia quedar, y pensar que estilos iba a usar
+- linke los estilos "practice" a todas las paginas para comenzar a trabajar
 
     <link rel="stylesheet" href="css/practice.css">
 
--Vi que todas la paginas tenian una estructura similar por lo que comienzo a crear estilos generales para no usar demasiado css y acomodar el 60% de la pagina en todas las paginas
+- Vi que todas la paginas tenian una estructura similar por lo que comienzo a crear estilos generales para no usar demasiado css y acomodar el 60% de la pagina en todas las paginas
 
     .wrap-body{
         display: flex;
@@ -22,7 +22,7 @@
         align-items: center;
     }
 
--Ademas agregue un par de clases nuevas para trabajar mas comodamente, por ejemplo en el footer
+- Ademas agregue un par de clases nuevas para trabajar mas comodamente, por ejemplo en el footer
 
     .f-i{
         display: grid;
@@ -30,7 +30,7 @@
         gap: 20px;
     }
 
--Comence organizando la primera pagina, dandole un display grid a el contenedor de los hover
+- Comence organizando la primera pagina, dandole un display grid a el contenedor de los hover
 
     .c-b{
         display: grid;
@@ -52,7 +52,7 @@
         grid-column: 3 / 5;
     }
 
--segui con la modelo debajo del mismo aplicando estos estilos
+- Segui con la modelo debajo del mismo aplicando estos estilos
 
     .box-text{
         display: grid;
@@ -66,7 +66,7 @@
         width: 180px;
     }
 
--la pagina About quedo igual al video con los estilos generales, solo corregi su contenedor interno con un grid
+- La pagina About quedo igual al video con los estilos generales, solo corregi su contenedor interno con un grid
 
     .c-f{
         display: grid;
@@ -74,7 +74,7 @@
         gap: 30px;
     }
 
--En la pagina del blog vi que ya tenia un grid solo estaba mal hecho y solo corregi lo que estaba mal, ademas de darle un width a las imagenes ya que no lo tenian y por esto no se mostraban, ademas ya estaban cuadradas donde deberian
+- En la pagina del blog vi que ya tenia un grid solo estaba mal hecho y solo corregi lo que estaba mal, ademas de darle un width a las imagenes ya que no lo tenian y por esto no se mostraban, ademas ya estaban cuadradas donde deberian
 
     .archive-post .box-text{
         grid-template: 1fr/ 1fr;
@@ -84,7 +84,7 @@
         width: 500px;
     }
 
--En la pagina del formulario solo agregue un display grid y un margin al h3 para que quedara identica al video
+- En la pagina del formulario solo agregue un display grid y un margin al h3 para que quedara identica al video
 
     .f-i{
         display: grid;
@@ -96,8 +96,8 @@
         padding: 40px 0 60px;
     }
 
--con estos pocos estilos arregle todas las paginas completamente, para que se viera como en el video
--Solo tuve un error y fue usar este estilo al principio del todo, el cual comente para dejar registro, al usarlo descuadraba todo porque es una clase muy usada en las paginas, entonces segui analizando la pagina buscando una solucion mejor, el cual remplace con .wrap-body
+- Con estos pocos estilos arregle todas las paginas completamente, para que se viera como en el video
+- Solo tuve un error y fue usar este estilo al principio del todo, el cual comente para dejar registro, al usarlo descuadraba todo porque es una clase muy usada en las paginas, entonces segui analizando la pagina buscando una solucion mejor, el cual remplace con .wrap-body
 
     .row{
         display: flex;
@@ -105,7 +105,7 @@
         align-items: center;
     }
 
-    
+
 
 Designed by Zerotheme
 Website : http://www.zerotheme.com
